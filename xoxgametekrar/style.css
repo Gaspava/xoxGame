@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: rgb(112, 112, 112);
+  user-select: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80")
+    no-repeat fixed center;
+  background-size: cover;
+}
+tr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid rgb(122, 122, 122);
+}
+section P {
+  color: rgba(92, 92, 92, 0.623);
+  float: right;
+  margin-top: -40px;
+  font-size: 15px;
+}
+p span {
+  color: rgba(92, 163, 196, 0.623);
+  font-size: 20px;
+}
+.block {
+  background-color: rgba(245, 245, 245, 0.288);
+  display: flex;
+  font-size: 90px;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border: 1.2px solid rgb(161, 161, 161);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+}
+.container-splash {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+.splash {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(95, 125, 160, 0.363);
+  border-radius: 15px;
+  padding: 40px;
+  width: 850px;
+  height: 500px;
+  box-shadow: rgba(100, 139, 179, 0.438) 0px 0px 2000px 4px;
+}
+
+.splash p {
+  color: rgb(218, 216, 216);
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+.splash button {
+  width: 200px;
+  height: 55px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 50px 10px;
+  cursor: pointer;
+}
+.container-splash p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+#bilge {
+  margin-top: 10px;
+  color: rgba(92, 233, 79, 0.788);
+}
